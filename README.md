@@ -1,2 +1,13 @@
-# AI-Workflow-Automation-Prompt-Builder
-An advanced AI-powered system that converts natural language instructions into structured workflow automations, AI-optimized prompts, JSON blueprints, and execution-ready automation steps. Built with Python, Streamlit, modular architecture, and prompt engineering best practices.
+# AI Workflow Automation Prompt Builder (Pro Edition)
+
+This project converts plain English workflow requests into executable workflow blueprints,
+AI-optimized prompts, and runnable automation templates.
+
+## Quick start
+1. Create venv: `python -m venv .venv`
+2. Activate: Windows: `.venv\Scripts\activate`  Linux: `source .venv/bin/activate`
+3. Install: `pip install -r requirements.txt`
+4. Run pipeline: `python main.py`
+5. Run UI: `streamlit run app/streamlit_app.py`
+
+Outputs are written to `outputs/workflow.json`.
